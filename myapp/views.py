@@ -4,4 +4,4 @@ from django.http import HttpResponse
 # def index(request):
     # return HttpResponse('''Congratulations,You have created a web application using django''')
 def home(request):
-    return render(request,'home.html')
+    return render(request,'HOME.HTML')
