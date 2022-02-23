@@ -9,7 +9,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
-    
+    <script>
+        document.write("hello");
+    </script>
+    <script src="{% static 'js/script.js' %}"></script>
    
     
 </head>
@@ -39,6 +42,7 @@
                     <input type="button" value="submit" ><br>
                     <a href="forget password">forget password?</a> <br>
                     <button type="button" class="btn btn-warning">warning</button>
+                    <button onclick="alert('cybersquare')">next page</button>
                 </form>
             </div>
             <div class="col-lg-3 ">
